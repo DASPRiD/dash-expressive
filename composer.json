@@ -1,0 +1,22 @@
+{
+    "name": "dasprid/dash-expressive",
+    "description": "Bridge between Dash and Zend-Expressive",
+    "license" : "BSD-2-Clause",
+    "homepage": "https://github.com/DASPRiD/DashExpressive",
+    "authors": [
+        {
+            "name": "DASPRiD",
+            "email": "mail@dasprids.de"
+        }
+    ],
+    "require": {
+        "php": "^5.5|^7.0",
+        "zendframework/zend-expressive": "^1.0@RC",
+        "dasprid/dash": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dash\\Expressive\\": "src/"
+        }
+    }
+}
